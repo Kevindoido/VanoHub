@@ -15,7 +15,10 @@ MainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
 MainFrame.BackgroundTransparency = 0.5 -- Interface transparente
 MainFrame.Visible = false
 MainFrame.Active = true
-MainFrame.Draggable = true
+-- Função para abrir/fechar a janela
+ToggleButton.MouseButton1Click:Connect(function()
+    MainFrame.Visible = not MainFrame.Visible
+end)
 
 ToggleButton.MouseButton1Click:Connect(function()
     MainFrame.Visible = not MainFrame.Visible
