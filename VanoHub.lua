@@ -5,7 +5,7 @@ VanoHub.Name = "VanoHub"
 local ToggleButton = Instance.new("ImageButton", VanoHub)
 ToggleButton.Size = UDim2.new(0, 60, 0, 60)
 ToggleButton.Position = UDim2.new(0.1, 0, 0.1, 0)
-ToggleButton.Image = "rbxassetid://ID_DA_SUA_IMAGEM_AQUI"
+ToggleButton.Image = "rbxassetid://106709533958478"
 ToggleButton.Draggable = true
 
 local MainFrame = Instance.new("Frame", VanoHub)
